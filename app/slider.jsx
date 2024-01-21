@@ -26,27 +26,13 @@ export default class VerticalMode extends Component {
     return (
       <div className="h-full">
         <Slider className="h-full w-full" {...settings}>
-          <div>
-            <Image width={400} height={100} src="/s1.jpg" alt="" />
-          </div>
-          <div>
-            <Image width={400} height={100} src="/t1.JPG" alt="" />
-          </div>
-          <div>
-            <Image width={400} height={70} src="/s2.jpg" alt="" />
-          </div>
-          <div>
-            <Image width={400} height={100} src="/t2.JPG" alt="" />
-          </div>
-          <div>
-            <Image width={400} height={70} src="/s3.jpg" alt="" />
-          </div>
-          <div>
-            <Image width={400} height={100} src="/t3.jpg" alt="" />
-          </div>
-          <div>
-            <Image width={400} height={70} src="/s4.jpg" alt="" />
-          </div>
+          <Image width={400} height={70} src="/a1.jpg" alt="" />
+
+          <Image width={400} height={120} src="/a2.jpg" alt="" />
+
+          <Image width={400} height={70} src="/a3.jpg" alt="" />
+
+          <Image width={400} height={70} src="/a4.jpg" alt="" />
         </Slider>
       </div>
     );
